@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="youtube.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Mobile clone</title>
+    <script src="https://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <section class="player">
+        <video autoplay controls src="/video/Cat.mp4" loop="" muted="muted"></video>
+    </section>
+
+    <div class="infoAndUpNext">
+        <section class="info">
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#clone</li>
+                    <li>#clone_Coding</li>
+                    <li>#front_end</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">고양이 근접 샷</span>
+                    <button class="moreBtn" style="background-color: white;"><i class="fas fa-caret-down"></i></button>
+                </div>
+                <span class="views">1M views 1 month ago</span>
+            </div>
+            <ul class="actions">
+                <li>
+                    <button style="background-color: white;"><i class="active fas fa-thumbs-up"></i><span>1K</span></button>
+                </li>
+                <li>
+                    <button style="background-color: white;"><i class="fas fa-thumbs-down"></i><span>0</span></button>
+                </li>
+                <li>
+                    <button style="background-color: white;"><i class="fas fa-share"></i><span>Share</span></button>
+                </li>
+                <li>
+                    <button style="background-color: white;"><i class="fas fa-plus"></i><span>Save</span></button>
+                </li>
+                <li>
+                    <button style="background-color: white;"><i class="fab fa-font-awesome-flag"></i><span>Report</span></button>
+                </li>
+            </ul>
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/cat.jpg" alt="">
+                    <div class="info">
+                        <span class="name">고양이 좋아</span>
+                        <span class="subsrcibers">1 subsrcibers</span>
+                    </div>
+                </div>
+                <div class="subscribe">subscribe</Xdiv>
+            </div>
+        </section>
+        <section class="upNext">
+            <span class="title">Up Next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="/image/somenail1.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">호수 주택 언덕</span>
+                        <span class="name">마을의 경치</span>
+                        <span class="views">32K View</span>
+                    </div>
+                    <button class="more" style="background-color: white;"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="/image/somenail2.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">커다란 구름</span>
+                        <span class="name">하늘 영상 모음</span>
+                        <span class="views">32K View</span>
+                    </div>
+                    <button class="more" style="background-color: white;"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="/image/somenail3.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">시원한 바닷가</span>
+                        <span class="name">바닷가가 너무 좋아</span>
+                        <span class="views">46K View</span>
+                    </div>
+                    <button class="more" style="background-color: white;"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>
